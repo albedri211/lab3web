@@ -4,17 +4,7 @@
 # Kelas : TI 22 A3
 
 # Modul praktikum pemrograman web
-
-* Instruksi Praktikum
-
-1. Persiapkan text editor misalnya VSCode.
-2. Buat folder baru dengan nama Lab3Web
-3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
-4. Lakukan validasi dokumen html dengan mengakses http://validator.w3.org
-
 # Langkah-langkah Praktikum
-
-*Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut.
 ```python
 <!DOCTYPE html>
 <html lang="en">
@@ -28,10 +18,7 @@
         </header>
     </body>
 </html>
-```
-# Membuat ordered list
-*  tambahkan kode untuk membuat Ordered List seperti berikut
-```
+
 <sectionid="order-list">
     <h2>Ordered List</h2>
     <ol>
@@ -40,10 +27,7 @@
         <li>Basis Data 2</li>
     </ol>
 </sectionid>
-```
-# Membuat unorderd list
-* tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada section unordered-list, seperti berikut.
-```
+
 <section id="unorder-list">
     <h2>Unordered List</h2>
     <ul type="square">
@@ -52,10 +36,7 @@
         <li>Algoritma &amp; Pemrograman</li>
     </ultype>
 </section>
-```
-# Membuat description list
-* tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
-```
+
 <section id="unorder-list">
     <h2>Description List</h2>
     <dl>
@@ -73,10 +54,9 @@
 ```
 # Hasil outputnya
 
-![gambar 1](img/output%20list.png)
+![gambar](img/output%20list.png)
 
 # Membuat tabel
-* Untuk membuat tabel buat lah tabel baru
 ```
 !DOCTYPE html>
 <html lang="en">
@@ -91,9 +71,6 @@
         </header>
     </body>
 </html lang>
-```
-* Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
-```
 <table border="1" cellpadding="4" cellspacing="0">
     <thead>
         <tr>
@@ -120,47 +97,42 @@
         </tr>
     </tbody>
     </table>
-```
-# Mengatur margin dan padding
-* Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan cellspacing pada tag table.
-```
-<table border="1" cellpadding="4" cellspacing="0">
-```
-# menggabungkan sel data
-* Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal).
-```
- <h2>Menggabungkan sel</h2>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <thread>
-        <tr>
-        <th>No.</th>
-        <th>Fakultas</th>
-        <th>Progam Studi</th>
-        </tr>
-        </thread>
-        <tbody>
-        <tr>
-        <td>1.</td>
-        <td rowspan="3">Teknik</td>
-        <td>Informatika</td>
-        </tr>
-        <tr>
-        <td>2.</td>
-        <td>Industri</td>
-        <tr>
-            <td>3.</td>
-            <td>Lingkungan</td>
-        </tr>
-        </tbody>
-        </table>
-    </body>
-</html>
+
+    <table border="1" cellpadding="4" cellspacing="0">
+
+        <h2>Menggabungkan sel</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thread>
+            <tr>
+            <th>No.</th>
+            <th>Fakultas</th>
+            <th>Progam Studi</th>
+            </tr>
+            </thread>
+            <tbody>
+            <tr>
+            <td>1.</td>
+            <td rowspan="3">Teknik</td>
+            <td>Informatika</td>
+            </tr>
+            <tr>
+            <td>2.</td>
+            <td>Industri</td>
+            <tr>
+                <td>3.</td>
+                <td>Lingkungan</td>
+            </tr>
+            </tbody>
+            </table>
+        </body>
+    </html>
+
+    
 ```
 # Hasil outputnya
-![gambar 2](img/output%20table.png)
+![gambar](img/output%20table.png)
 
 # Membuat from
-* untuk membuat from buat lah file baru
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -218,7 +190,6 @@
 ![hambar 3](img/output%20form.png)
 
 # Menampilkan dropdown menu dan listbox dengan multiple selection
-* untuk membuat dropdown dan listbox buatlah file baru
 ```
 <!DOCTYPE html>
 <html>
